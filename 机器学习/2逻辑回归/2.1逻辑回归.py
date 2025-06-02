@@ -53,6 +53,7 @@ def computeCost(X, y, theta):
     return np.sum(-y*np.log(hypothesis(X, theta) + epsilon) - (1 - y) * np.log(1 - hypothesis(X, theta) + epsilon)) / m
 
 
+
 # 梯度下降法求解
 def gradientDescent(X,y,theta,iterations,alpha):
     X = np.insert(X, 0, values=1, axis=1)  # 在X的第0行前面 插入数字1（因为有广播机制） axis=1 表示插入一列
