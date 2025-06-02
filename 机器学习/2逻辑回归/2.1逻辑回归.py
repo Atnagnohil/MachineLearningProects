@@ -80,8 +80,8 @@ X_Orign, y = loadData()
 m = X_Orign.shape[0]
 n = X_Orign.shape[1] + 1
 theta = np.zeros((n,1))
-iterations = 1000
-alpha = 0.001
+iterations = 10000
+alpha = 0.004
 X_std, mu, sigma = featureNormalize(X_Orign)
 theta ,costs = gradientDescent(X_std, y, theta, iterations, alpha)
 print(theta)
@@ -108,6 +108,13 @@ def plotDecisionBoundary(X, y, theta, mu, sigma):
     plt.plot(x1, x2)
     plt.show()
 plotDecisionBoundary(X_Orign, y, theta, mu, sigma)
+
+# 绘制损失函数图像
+def plotCost(iterations, costs):
+    X_axis = np.linspace(1, iterations, iterations)
+    plt.plot(X_axis, costs, color="black")
+    plt.show()
+plotCost(iterations, costs)
 
 p = predictData(X_Orign,theta)
 print('准确度：',np.mean(p==y))
