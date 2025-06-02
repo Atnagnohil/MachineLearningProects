@@ -7,6 +7,13 @@
     <list default="true" id="60aad6d9-37f5-4f13-83ce-55f58d69299b" name="更改" comment="&quot;Initial commit&quot;">
       <changelist_data name="lihong" email="2868014836@qq.com" automatic="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-1线性回归-递归下降算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-1线性回归-递归下降算法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-2线性回归-梯度下降法实现线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-2线性回归-梯度下降法实现线性回归.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-3线性回归-Ridge回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-3线性回归-Ridge回归.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-4线性回归-Lasso回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-4线性回归-Lasso回归.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-5线性回归-最小二乘法求线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-5线性回归-最小二乘法求线性回归.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-6使用sklearn实现线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-6使用sklearn实现线性回归.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/Boston房价预测.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/Boston房价预测.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/2逻辑回归/2.1逻辑回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/2.1逻辑回归.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +56,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.2.1逻辑回归.executor": "Run",
+    "Python.Boston房价预测.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/python/PycharmProjects/PyProject2",
+    "last_opened_file_path": "D:/python/PycharmProjects/PyProject2/机器学习/1线性回归/Data",
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
@@ -61,7 +69,7 @@
       <recent name="D:\python\PycharmProjects\PyProject2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Boston房价预测">
     <configuration name="2.1逻辑回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyProject2" />
       <option name="ENV_FILES" value="" />
@@ -84,8 +92,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Boston房价预测" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/1线性回归" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/1线性回归/Boston房价预测.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Boston房价预测" />
         <item itemvalue="Python.2.1逻辑回归" />
       </list>
     </recent_temporary>
@@ -116,6 +147,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.xls" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Initial commit&quot;" />

@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 '''
 时间:      2025/6/1 19:12
-@author:  lihong
+@author:  andinm
 '''
 
 from sklearn import linear_model

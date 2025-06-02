@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 '''
 时间:      2025/6/1 21:08
-@author:  lihong
+@author:  andinm
 '''
 import numpy as np
 import matplotlib.pyplot as plt
