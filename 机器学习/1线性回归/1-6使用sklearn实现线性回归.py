@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
 
+
 def loadData():
     data = np.loadtxt(f"Data/data1.txt",delimiter=',')
     n = data.shape[1] - 1

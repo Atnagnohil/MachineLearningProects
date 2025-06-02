@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60aad6d9-37f5-4f13-83ce-55f58d69299b" name="更改" comment="&quot;Initial commit&quot;">
-      <changelist_data name="lihong" email="2868014836@qq.com" automatic="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-1线性回归-递归下降算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-1线性回归-递归下降算法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-2线性回归-梯度下降法实现线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-2线性回归-梯度下降法实现线性回归.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-3线性回归-Ridge回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-3线性回归-Ridge回归.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-4线性回归-Lasso回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-4线性回归-Lasso回归.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-5线性回归-最小二乘法求线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-5线性回归-最小二乘法求线性回归.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1-6使用sklearn实现线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1-6使用sklearn实现线性回归.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/1线性回归/Boston房价预测.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/1线性回归/Boston房价预测.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/2逻辑回归/2.1逻辑回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/2.1逻辑回归.py" afterDir="false" />
     </list>
@@ -37,12 +36,12 @@
     &quot;assignee&quot;: &quot;Atnagnohil&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Atnagnohil/Machine-Learning-Projects&quot;,
-    &quot;accountId&quot;: &quot;f041196f-4cc5-40e4-b3ae-e09cf61b209c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Atnagnohil/MachineLearningProects",
+    "accountId": "f041196f-4cc5-40e4-b3ae-e09cf61b209c"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -146,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748789494977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Initial commit&quot;">
+      <option name="closed" value="true" />
+      <created>1748853349284</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748853349284</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
