@@ -15,7 +15,7 @@ def loadData():
     data = np.loadtxt("Data/data1.txt", delimiter=',')
     n = data.shape[1] - 1
     X = data[:, 0:n]
-    y = data[:, -1].reshape(-1, 1)
+    y = data[:, -1]
     return X, y
 X_Orign, y = loadData()
 
