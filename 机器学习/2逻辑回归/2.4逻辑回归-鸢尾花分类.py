@@ -3,10 +3,9 @@
 时间:      2025/6/2 22:55
 @author:  andinm
 '''
-import matplotlib.pyplot as plt
 # 导入必要库
 import numpy as np
-from matplotlib.pyplot import plot
+import matplotlib.pyplot as plt
 from scipy.stats import alpha
 from sklearn import linear_model
 from sklearn.preprocessing import StandardScaler
@@ -114,11 +113,12 @@ print(f"在训练集上的精准度{accuracy_score(y_hat2, y):.2%}")
 # 可视化结果
 def plotDescisionBoundary(X, feature1, feature2, model2):
     # meshgrid函数生成两个网格矩阵
-    h = .02
-    x_min, x_max = X[:, feature1].min() - .5, X[:, feature1].max() + .5
-    y_min, y_max = X[:, feature2].min() - .5, X[:, feature2].max() + .5
+    h = 0.02
+    x_min, x_max = X[:, feature1].min() - 0.5, X[:, feature1].max() + 0.5
+    y_min, y_max = X[:, feature2].min() - 0.5, X[:, feature2].max() + 0.5
     xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
-    print(np.c_[xx.ravel(), yy.ravel()])
+    # print(xx, yy)
+    # print(np.c_[xx.ravel(), yy.ravel()])
     z = model2.predict(np.c_[xx.ravel(), yy.ravel()])
     z = z.reshape(xx.shape)
     plt.pcolormesh(xx, yy, z, cmap=plt.cm.Paired)

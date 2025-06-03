@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60aad6d9-37f5-4f13-83ce-55f58d69299b" name="更改" comment="&quot;Initial commit&quot;">
-      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/2.4逻辑回归-鸢尾花分类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/2.5逻辑回归-手写数字识别.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/Data/minist/t10k-images.idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/Data/minist/t10k-labels.idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/Data/minist/train-images.idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/Data/minist/train-labels.idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/tool/Read_Minist_Tool.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/2逻辑回归/2.4逻辑回归-鸢尾花分类.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/2.4逻辑回归-鸢尾花分类.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +66,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.2.1逻辑回归.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.3使用sklearn实现逻辑回归.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2.4逻辑回归-鸢尾花分类.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Boston房价预测.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/python/PycharmProjects/PythonProject1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.2.1逻辑回归.executor": "Run",
+    "Python.2.3使用sklearn实现逻辑回归.executor": "Run",
+    "Python.2.4逻辑回归-鸢尾花分类.executor": "Run",
+    "Python.2.5逻辑回归-手写数字识别.executor": "Run",
+    "Python.Boston房价预测.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/python/PycharmProjects/PyProject",
+    "settings.editor.selected.configurable": "fileTemplates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\PycharmProjects\PyProject2\机器学习\2逻辑回归" />
+      <recent name="D:\python\PycharmProjects\PyProject2\机器学习\2逻辑回归\Data" />
       <recent name="D:\python\PycharmProjects\PyProject2\机器学习\1线性回归\Data" />
       <recent name="D:\python\PycharmProjects\PyProject2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2.4逻辑回归-鸢尾花分类">
+  <component name="RunManager" selected="Python.2.5逻辑回归-手写数字识别">
     <configuration name="2.1逻辑回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyProject2" />
       <option name="ENV_FILES" value="" />
@@ -146,6 +155,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="2.5逻辑回归-手写数字识别" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/2逻辑回归" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/2逻辑回归/2.5逻辑回归-手写数字识别.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Boston房价预测" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyProject2" />
       <option name="ENV_FILES" value="" />
@@ -170,6 +201,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2.5逻辑回归-手写数字识别" />
         <item itemvalue="Python.2.4逻辑回归-鸢尾花分类" />
         <item itemvalue="Python.2.3使用sklearn实现逻辑回归" />
         <item itemvalue="Python.Boston房价预测" />
