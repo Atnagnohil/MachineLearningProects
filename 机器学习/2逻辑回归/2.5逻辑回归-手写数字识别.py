@@ -21,7 +21,7 @@ test_images = load_test_images()
 test_labels = load_test_labels()
 print("-----------数据加载完成-----------------")
 
-# print(train_images.shape)
+print(train_images.shape)
 # 查看一部分数据
 def plotPartData(num, Data, labels):
     for i in range(num):
@@ -42,13 +42,17 @@ X_test = X_test / 255
 
 # 模型训练
 model = linear_model.LogisticRegression(C=50, max_iter=2000)
-model.fit(X[0:1000], train_labels[0:1000])
+model.fit(X, train_labels)
 print(model.intercept_)
 print(model.coef_)
 
 # 测试模型精准度
 y_train_hat = model.predict(X_test)
 print(f"测试集精度{accuracy_score(y_train_hat, test_labels)}")
+
+
+import joblib  # 保存模型
+joblib.dump(model, "digit_recognition_model.pkl")
 
 
 

@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60aad6d9-37f5-4f13-83ce-55f58d69299b" name="更改" comment="&quot;Initial commit&quot;">
-      <change afterPath="$PROJECT_DIR$/机器学习/3决策树/3-1决策树-熵.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/2.6逻辑回归-使用训练的模型进行数字识别.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/Data/ima-num-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/Data/ima-num-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/Data/img-num-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/Data/img-num-3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/2逻辑回归/2.5逻辑回归-手写数字识别.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/2逻辑回归/2.5逻辑回归-手写数字识别.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,24 +71,25 @@
     "Python.2.3使用sklearn实现逻辑回归.executor": "Run",
     "Python.2.4逻辑回归-鸢尾花分类.executor": "Run",
     "Python.2.5逻辑回归-手写数字识别.executor": "Run",
+    "Python.2.6逻辑回归-使用训练的模型进行数字识别.executor": "Run",
     "Python.3-1决策树-熵.executor": "Run",
     "Python.Boston房价预测.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/python/PycharmProjects/PyProject2",
+    "last_opened_file_path": "D:/python/PycharmProjects/PyProject2/机器学习/2逻辑回归/Data",
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\python\PycharmProjects\PyProject2\机器学习\2逻辑回归" />
       <recent name="D:\python\PycharmProjects\PyProject2\机器学习\2逻辑回归\Data" />
+      <recent name="D:\python\PycharmProjects\PyProject2\机器学习\2逻辑回归" />
       <recent name="D:\python\PycharmProjects\PyProject2\机器学习\1线性回归\Data" />
       <recent name="D:\python\PycharmProjects\PyProject2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3-1决策树-熵">
+  <component name="RunManager" selected="Python.2.6逻辑回归-使用训练的模型进行数字识别">
     <configuration name="2.3使用sklearn实现逻辑回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyProject2" />
       <option name="ENV_FILES" value="" />
@@ -150,6 +156,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="2.6逻辑回归-使用训练的模型进行数字识别" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyProject2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/2逻辑回归" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/2逻辑回归/2.6逻辑回归-使用训练的模型进行数字识别.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="3-1决策树-熵" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyProject2" />
       <option name="ENV_FILES" value="" />
@@ -172,35 +200,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Boston房价预测" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PyProject2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习/1线性回归" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/1线性回归/Boston房价预测.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.3-1决策树-熵" />
+        <item itemvalue="Python.2.6逻辑回归-使用训练的模型进行数字识别" />
         <item itemvalue="Python.2.5逻辑回归-手写数字识别" />
+        <item itemvalue="Python.3-1决策树-熵" />
         <item itemvalue="Python.2.4逻辑回归-鸢尾花分类" />
         <item itemvalue="Python.2.3使用sklearn实现逻辑回归" />
-        <item itemvalue="Python.Boston房价预测" />
       </list>
     </recent_temporary>
   </component>
