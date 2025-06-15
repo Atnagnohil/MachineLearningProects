@@ -1,6 +1,6 @@
 # _*_ coding: utf-8 _*_
 '''
-时间:      2025/6/8 23:39
+时间:      2025/6/15 22:28
 @author:  andinm
 '''
 import math
@@ -25,13 +25,13 @@ def loadData():
     feature_name = ['age','job','house','credit']
     return dataSet, feature_name
 
-# 计算数据的熵
-def entropy(dataSet):
+# 计算数据的熵  # 加上axis 方便计算某一特征下的熵
+def entropy(dataSet, axis=-1):
     # 数据集条数
     m = len(dataSet)
     labelCnts = {}
     for featVec in dataSet:
-        curLabel = featVec[-1]
+        curLabel = featVec[axis]
         if curLabel not in labelCnts:
             labelCnts[curLabel] = 1
         else:
@@ -62,7 +62,7 @@ def chooseBestFeature(dataSet):
     # 首先计算经验熵
     baseEntropy = entropy(dataSet)
     # 计算条件经验熵
-    bestInfoGain = 0.0  # 最大的信息增益
+    bestInfoGain = 0.0  # 最大的信息增益比
     bestFeature = -1    # 最大的信息增益时对应的特征
     n = len(dataSet[0]) - 1  # n为所有的特征
     # 遍历每个特征
@@ -79,8 +79,14 @@ def chooseBestFeature(dataSet):
             # 计算条件熵（2行代码）
             prob = len(subDataSet) / float(len(dataSet))
             newEntropy += prob * entropy(subDataSet)
-        # 计算信息增益
-        infoGain = baseEntropy - newEntropy
+        # 计算信息增益比
+        Hi = entropy(dataSet, axis=i)
+
+        # 修复方案：添加安全检查
+        if abs(Hi) < 1e-5:  # 特征熵接近0
+            continue  # 跳过该特征
+
+        infoGain = (baseEntropy - newEntropy) / Hi
         # 保存当前最大的信息增益及对应的特征
         if (infoGain > bestInfoGain):
             bestInfoGain = infoGain
@@ -150,4 +156,14 @@ def predict(inputTree,featLabels,testVec):
     else: classLabel = valueOfFeat
     return classLabel
 print(predict(myTree,feature_name,[1,1,0,1]))
+
+
+
+
+
+
+
+
+
+
 
